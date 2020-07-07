@@ -1,0 +1,17 @@
+.place__paragraph {
+  display: grid;
+  grid-template-columns: repeat( 1, 1fr);
+  grid-template-rows: repeat( 2, auto);
+  grid-row-gap: 24px;
+  width: 484px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  grid-column: 2/3;
+  grid-row: span(2);
+  align-self: start;
+/* or 167% */
+}

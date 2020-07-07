@@ -1,0 +1,10 @@
+.places {
+  display: grid;
+  grid-template-columns: repeat(1, 984px);
+  grid-template-rows: repeat(auto-fit ,1fr);
+  grid-row-gap: 80px;
+  justify-content: center;
+  width: 984px;
+  min-height: 3392px;
+  margin: 0 auto 92px;
+}

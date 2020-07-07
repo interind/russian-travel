@@ -1,0 +1,9 @@
+.place__webside {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 456px;
+  min-height: 46px;
+  grid-row: 1;
+  grid-column: 2/3;
+}
