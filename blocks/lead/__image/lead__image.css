@@ -1,10 +1,11 @@
 .lead__image {
  display: flex;
- justify-content: center;
+ align-items: flex-start;
  background-image: url(../../../images/lead/kalegin-michail-179870-unsplash.jpg);
- padding-bottom: calc(62.5% - 263px);
  max-width: 984px;
- width: 100%;
+ width: 984px;
+ height: 615px;
+ max-height: 615px;
  margin-bottom: 8px;
  background-repeat: no-repeat;
 }
