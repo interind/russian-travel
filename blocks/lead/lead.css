@@ -7,5 +7,5 @@
 .lead {
   min-height: 1005px;
   margin: 0 auto 92px;
-  width: 984px;
+  max-width: 984px;
 }
