@@ -1,12 +1,13 @@
 .cover__overlay {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-end;
   width: 100%;
-  min-height: 740px;
+  height: 740px;
   background-color: #2A2C2F;
   opacity: 0.3;
+  outline: 1px solid #fff;
 }
 
 .cover__overlay:hover {

@@ -6,8 +6,9 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
- /* or 106% */
-  text-align: center;
   margin-bottom: 32px;
   margin-top: 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
