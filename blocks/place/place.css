@@ -15,8 +15,4 @@
   width: 100%;
   min-height: 584px;
   max-height: 660px;
-  /*grid-template-areas: 
-  "title webside"
-  "image paragraph-top"
-  "image paragraph-bottom";*/
 }

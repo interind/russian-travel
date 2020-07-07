@@ -8,10 +8,10 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.66;
   margin: 0;
   grid-column: 2/3;
   grid-row: span(2);
   align-self: start;
-/* or 167% */
+  color: #fff;
 }

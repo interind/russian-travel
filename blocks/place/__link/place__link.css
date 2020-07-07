@@ -3,8 +3,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
- /* identical to box height, or 122% */
+  line-height: 1.22;
   text-decoration-line: underline;
   color: #fff;
+  opacity: 1;
+}
+
+.place__link:hover {
+  opacity: 0.2;
 }
