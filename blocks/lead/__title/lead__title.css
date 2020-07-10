@@ -5,8 +5,9 @@
   font-size: 96px;
   line-height: 1.04;
   text-align: center;
-  margin:0 auto 32px;
+  margin:0 auto 3.25%;/*32px*/
   min-width: 720px;
-  height: 200px;;
+  /*height: 200px;*/
+  height: clac(200 / 984) * 100;
   color: #fff;
 }

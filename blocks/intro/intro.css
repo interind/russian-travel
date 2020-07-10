@@ -3,9 +3,23 @@
 @import url(./__list/intro__list.css);
 
 .intro {
- display: block;
- max-width: 690px;
- min-height: 428px;
- margin:0 auto 92px 100px;
- text-align: left;
+  display: block;
+  width: 690px; /*720px для 768*/
+  height: 428px;
+  margin:0 auto 7.77% 8.44%;  /*92px 100px;*/
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+ .intro {
+  width: 720px;
+  margin-left: 0;
+  margin-right: 0;
+ }
+}
+@media screen and (max-width: 900px) {
+ .intro {
+  margin-left: auto;
+  margin-right: auto;
+ }
 }

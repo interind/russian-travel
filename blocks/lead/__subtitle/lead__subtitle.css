@@ -5,6 +5,7 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  margin:0 auto 168px;
+  width: 65.04%;/*640px*/
+  margin:0 auto 6.5%;/*64px*/
   color: #fff;
 }

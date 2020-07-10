@@ -6,8 +6,8 @@
   align-items: flex-end;
   min-height: 42px;
   max-width: 1184px;
-  width: 92.5%;
+  width: 92.5vw;
   height: 6.5vh;
-  margin: 0 auto;
+  margin: 0 auto 6.56%;
   background-color: #2A2C2F;
 }
