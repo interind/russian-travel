@@ -1,8 +1,11 @@
 .place__webside {
-  max-width: 456px;
-  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 456px;
   min-height: 46px;
-  align-self: end;
-  grid-row: 1;
-  grid-column: 2;
+  order: 2;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  margin-right: auto;
 }
