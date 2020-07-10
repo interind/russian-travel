@@ -1,18 +1,19 @@
-@import url(./_marg/place__paragraph_marg.css);
-@import url(./_place/place__paragraph_place.css);
-
 .place__paragraph {
-  /*display: inline-flex;
-  flex-wrap: wrap;
-  width: 483px;
-  margin: 0;
-   list-style: none;
-  padding-left: 0;*/
   display: inline-block;
   color: #fff;
   width: 483px;
   order: 4;
   margin: 0;
+  justify-content: flex-start;
+  outline: 1px solid #fff;
+}
+
+.place__paragraph:first-child {
+  margin-bottom: 24px;
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
