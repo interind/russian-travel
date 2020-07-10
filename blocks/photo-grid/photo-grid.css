@@ -3,10 +3,10 @@
 .photo-grid {
   min-height: 671px;
   max-width: 1184px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, 284px);
-  grid-template-rows: repeat(auto-fit, 213px);
-  justify-content: center;
+  grid-template-rows: repeat(auto-fit, 1fr);
   grid-gap: 16px;
   margin: 0 auto 92px;
 }

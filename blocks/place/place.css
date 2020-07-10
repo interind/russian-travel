@@ -7,10 +7,15 @@
 
 .place {
   display: grid;
-  grid-template-columns:repeat(2, 1fr);
-  grid-template-rows: repeat(2, 76px, 1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 48px;
+  grid-template-rows: 2, 1fr;
+  grid-template-columns: 46.74%, 49.18%;
+  align-content: flex-start;
+  grid-gap: 40px;
+  width: 76.87vw;
   min-height: 584px;
-  max-height: 660px;
+  margin-bottom: 92px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
 }
