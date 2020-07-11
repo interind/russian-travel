@@ -2,7 +2,19 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 46px;
+  height: 46px;
+  width: 456px;
   grid-row: 1;
   grid-column: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .place__webside {
+    width: 352px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__webside {
+    display: none;
+  }
 }

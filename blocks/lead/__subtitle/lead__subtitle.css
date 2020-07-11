@@ -5,7 +5,25 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  width: 65.04%;/*640px*/
-  margin:0 auto 6.5%;/*64px*/
+  max-width: 640px;
+  max-height: 72px;
+  width: 640px;
+  height: 72px;
+  margin: 0 auto 64px;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 0 auto 40px;
+    font-size: 16px;
+    height: 40px;
+    width: 288px;
+  }
 }

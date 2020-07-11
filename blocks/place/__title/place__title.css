@@ -1,4 +1,7 @@
 .place__title {
+max-width: 460px;
+min-height: 76px;
+max-height: 152px;
 font-family: Inter;
 font-style: normal;
 font-weight: 900;
@@ -15,4 +18,22 @@ align-self: end;
  .place__title {
    max-width: 440px;
  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    min-height: 46px;
+    max-height: 92px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    min-height: 35px;
+    max-height: 35px;
+  }
 }

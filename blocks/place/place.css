@@ -3,12 +3,53 @@
 @import url(./__webside/place__webside.css);
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
+@import url(./__text/place__text.css);
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
   display: grid;
   align-content: flex-start;
-  grid-template-columns: 460px 487px;
-  grid-template-rows: minmax(72px, 152px) 460px;
+  justify-content: center;
+  grid-template-columns: 1fr;
   grid-gap: 40px;
+  width: 100%;
+  min-height: 584px;
+  max-height: 660px;
+  max-width: 984px;
+  min-width: 928px;
+  margin-bottom: 80px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px){
+  .place {
+    grid-gap: 32px;
+    min-height: 564px;
+    max-height: 644px;
+    grid-row-gap: 48px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 984px;
+    min-width: 928px;
+    min-height: 434px;
+    max-height: 580px;
+    grid-column-gap: 28px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place {
+    grid-gap: 32px;
+    max-width: 320px;
+    min-width: 320px;
+    min-height: 963px;
+    max-height: 963px;
+    grid-row-gap: 32px;
+  }
 }

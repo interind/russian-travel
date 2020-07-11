@@ -4,22 +4,36 @@
 
 .intro {
   display: block;
-  width: 690px; /*720px для 768*/
+  max-width: 690px;
+  max-height: 428px;
+  width: 690px;
   height: 428px;
-  margin:0 auto 92px;  /*92px 100px;*/
+  margin:0 auto 92px 148px;
   text-align: left;
 }
 
-@media screen and (max-width: 768px) {
- .intro {
-  width: 720px;
-  margin-left: 0;
-  margin-right: 0;
- }
+@media screen and (max-width: 1024px) {
+  .intro{ 
+    margin-left: 48px;
+  }  
 }
-@media screen and (max-width: 900px) {
- .intro {
-  margin-left: auto;
-  margin-right: auto;
- }
+
+@media screen and (max-width: 768px) {
+  .intro{ 
+    margin-left: 48px;
+    margin-bottom: 88px;
+    max-width: 720px;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro{ 
+    margin-left: 48px;
+    margin-bottom: 88px;
+    max-width: 288px; 
+    width: 288px;
+    height: 752px;
+    max-height: 752px;
+  }
 }

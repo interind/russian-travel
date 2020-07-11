@@ -10,9 +10,26 @@
   width: 76.87%;
 }
 
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-height: 962px;
+    max-width: 928px;
+    width: 90.62%;
+  }
+}
 @media screen and (max-width: 768px) {
   .lead {
-   margin-left: 0;
-   margin-right: 0;
+    max-height: 862px;
+    margin: 0 0 88px;
+    max-width: 768px;
+    width: 100%;
   }
- }
+}
+@media screen and (max-width: 320px) {
+  .lead {
+    max-height: 406px;
+    margin: 0 2px 64px;
+    max-width: 320px;
+    width: 100%;
+  }
+}
