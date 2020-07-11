@@ -9,16 +9,25 @@
   max-width: 1184px;
   width: 92.5%;
   height: 18px;
-  margin: 0 auto 24px;
+  margin: 0 auto;
   background-color: #2A2C2F;
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .footer {
+    width: 90.62%;
+  }
 }
 @media screen and (max-width: 768px) {
- 
+  .footer {
+    max-width: 93.75%
+  }
 }
 @media screen and (max-width: 320px) {
- 
+  .footer {
+    display: inline-block;
+    width: 186px;
+    height: 320px;
+    margin: 0 auto 0 16px;
+  }
 }
