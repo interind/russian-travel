@@ -26,10 +26,11 @@
     margin-bottom: 88px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   .cover {
     width: 320px;
     height: 200px;
     margin-bottom: 64px;
+    margin-top: 32px;
   }
 }

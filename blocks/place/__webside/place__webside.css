@@ -2,6 +2,7 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-self: end;
   height: 46px;
   width: 456px;
   grid-row: 1;

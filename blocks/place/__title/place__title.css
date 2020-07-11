@@ -29,11 +29,12 @@ align-self: end;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   .place__title {
     max-width: 288px;
     font-size: 32px;
     min-height: 35px;
     max-height: 35px;
+    padding-bottom: 32px;
   }
 }

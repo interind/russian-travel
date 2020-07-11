@@ -23,7 +23,7 @@
 @media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
-    width: 100%;
+    width: 320px;
     max-height: 4775px;
     margin: 0;
   }
