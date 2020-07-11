@@ -6,10 +6,9 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  width: 984px;
-  height: 660px;
+  display: grid;
+  align-content: flex-start;
+  grid-template-columns: 460px 487px;
+  grid-template-rows: minmax(72px, 152px) 460px;
+  grid-gap: 40px;
 }

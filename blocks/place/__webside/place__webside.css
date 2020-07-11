@@ -2,10 +2,7 @@
   display: inline-flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 456px;
   min-height: 46px;
-  order: 2;
-  align-self: flex-end;
-  margin-bottom: 40px;
-  margin-right: auto;
+  grid-row: 1;
+  grid-column: 2;
 }

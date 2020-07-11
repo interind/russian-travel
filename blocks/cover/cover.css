@@ -4,9 +4,8 @@
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
-  margin: 0 auto 7.18%;
-  max-width: 1184px;
-  width: 100%;
+  margin: 0 auto 92px;
+  width: 92.5%;
   height: 93vh;
   outline: 1px solid #fff;
   background-image: url(../../images/cover/cover-trains.jpg);

@@ -1,19 +1,13 @@
+@import url(./_padding/place__paragraph_padding.css);
 .place__paragraph {
-  display: inline-block;
   color: #fff;
-  width: 483px;
-  order: 4;
-  margin: 0;
-  justify-content: flex-start;
+  /*483px;*/
   outline: 1px solid #fff;
-}
-
-.place__paragraph:first-child {
-  margin-bottom: 24px;
-}
-
-.place__paragraph:last-child {
-  margin-bottom: 0;
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 @media screen and (max-width: 1024px) {
