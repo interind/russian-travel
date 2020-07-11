@@ -4,7 +4,7 @@
   text-decoration: none;
   text-align: right;
   color: #fff;
-  margin-right: 28px;
+  margin-right: 18px;
   margin-left: auto;
   font-family: Inter;
   font-style: normal;
@@ -33,11 +33,9 @@
   .header__link:last-of-type {
     height: 28px;
   }
- 
 }
 @media screen and (max-width: 320px) {
   .header__link:last-of-type {
     height: 28px;
   }
- 
 }

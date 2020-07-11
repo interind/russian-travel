@@ -14,8 +14,7 @@
   width: 100%;
   min-height: 584px;
   max-height: 660px;
-  max-width: 984px;
-  min-width: 928px;
+  width: 984px;
   margin-bottom: 80px;
 }
 
@@ -37,7 +36,6 @@
   .place {
     grid-template-columns: 340px 352px;
     max-width: 720px;
-    min-width: 720px;
     min-height: 434px;
     grid-column-gap: 28px;
   }
@@ -49,8 +47,6 @@
     justify-content: center;
     align-items: flex-start;
     max-width: 320px;
-    min-width: 320px;
-    min-height: 963px;
     max-height: 963px;
     margin-bottom: 0;
   }

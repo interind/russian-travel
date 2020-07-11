@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-self: end;
-  height: 46px;
-  width: 456px;
+  min-height: 46px;
+  max-width: 456px;
   grid-row: 1;
   grid-column: 2;
 }

@@ -6,9 +6,7 @@
   line-height: 1.2;
   text-align: center;
   max-width: 640px;
-  max-height: 72px;
-  width: 640px;
-  height: 72px;
+  min-height: 72px;
   margin: 0 auto 64px;
   color: #fff;
 }
@@ -23,7 +21,7 @@
   .lead__subtitle {
     margin: 0 auto 40px;
     font-size: 16px;
-    height: 40px;
-    width: 288px;
+    min-height: 40px;
+    max-width: 288px;
   }
 }

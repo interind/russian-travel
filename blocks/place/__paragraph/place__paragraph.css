@@ -11,19 +11,12 @@
   min-height: 120px;
  }
 
- .place__paragraph:last-of-type {
+.place__paragraph:last-of-type {
   padding-bottom: 0;
- }
+}
 
- @media screen and (max-width: 1024px) {
-   .place__paragraph {
-      font-size: 16px;
-   }
-  
-}
-@media screen and (max-width: 768px) {
- 
-}
-@media screen and (max-width: 320px) {
- 
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

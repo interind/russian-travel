@@ -11,16 +11,14 @@
   margin-right: 18px;
 }
 
+.footer__link:hover {
+  color: #DADADA;
+}
+
 .footer__link:last-of-type {
   margin-right: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  
-}
-@media screen and (max-width: 768px) {
- 
-}
 @media screen and (max-width: 320px) {
   .footer__link {
     display: inline-block;

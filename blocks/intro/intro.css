@@ -5,34 +5,30 @@
 .intro {
   display: block;
   max-width: 690px;
-  max-height: 428px;
-  width: 690px;
+  min-height: 428px;
   height: 428px;
   margin:0 auto 92px 148px;
   text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
-  .intro{ 
+  .intro { 
     margin-left: 48px;
   }  
 }
 
 @media screen and (max-width: 768px) {
-  .intro{ 
+  .intro { 
     margin-left: 48px;
     margin-bottom: 88px;
     max-width: 720px;
-    width: 720px;
   }
 }
 
 @media screen and (max-width: 325px) {
-  .intro{ 
+  .intro { 
     max-width: 288px; 
-    width: 288px;
     height: 752px;
-    max-height: 752px;
     margin: 0 auto;
     padding-bottom: 64px;
   }

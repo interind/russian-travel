@@ -1,0 +1,32 @@
+.group4 {
+  position: absolute;
+  top: 90.21px;
+  left: 23.27px;
+  max-width: 937.09px;
+  max-height: 262.99px;
+}
+
+@media screen and (max-width: 1024px) {
+  .group4 {
+    top: 85.07px;
+    left: 21.95px;
+    max-width: 833.76px;
+    max-height: 248.02px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .group4 {
+    top: 70.41px;
+    left: 18.16px;
+    max-width: 731.38px;
+    max-height: 205.26px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .group4 {
+    top: 29.34px;
+    left: 7.57px;
+    max-width: 304.74px;
+    max-height: 85.53px;
+  }
+}

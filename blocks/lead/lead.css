@@ -21,7 +21,6 @@
   .lead {
     max-height: 862px;
     margin: 0 0 88px;
-    max-width: 768px;
     width: 100%;
   }
 }
@@ -30,7 +29,6 @@
     max-height: 406px;
     margin: 0 2px;
     max-width: 320px;
-    width: 100%;
     padding-bottom: 64px;
   }
 }

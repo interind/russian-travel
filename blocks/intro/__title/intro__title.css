@@ -2,9 +2,7 @@
   margin-bottom: 40px;
   margin-top: 0;
   max-width: 690px;
-  max-height: 58px;
-  width: 690px;
-  height: 58px;
+  min-height: 58px;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -17,8 +15,6 @@
   .intro__title {
     max-width: 720px;
     max-height: 58px;
-    width: 720px;
-    height: 58px;
   }
 }
 
@@ -26,8 +22,7 @@
   .intro__title {
     max-width: 288px;
     max-height: 70px;
-    width: 288px;
-    height: 70px;
+    min-height: 70px;
     font-size: 32px;
   }
 }
