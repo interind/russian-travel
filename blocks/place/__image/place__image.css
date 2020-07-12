@@ -1,27 +1,38 @@
-.place__image {
- object-fit: cover;
- max-width: 460px;
- width: 100%;
- grid-row: 2/ 3;
- grid-column: 1;
-}
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
-@media screen and (max-width: 1024px) {
-  .place__image {
-    max-width: 440px;
-    height: 440px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .place__image {
-    max-width: 340px;
-    height: 340px;
-  }
-}
-@media screen and (max-width: 325px) {
-  .place__image {
-    max-width: 320px;
-    height: 320px;
-    margin-bottom: 32px;
-  }
-}
+.place__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 460px;
+  width: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/ 3;
+  -ms-grid-column: 1;
+  grid-column: 1;
+ }
+ 
+ @media screen and (max-width: 1024px) {
+   .place__image {
+     max-width: 440px;
+     height: 440px;
+   }
+ }
+ @media screen and (max-width: 768px) {
+   .place__image {
+     max-width: 340px;
+     height: 340px;
+   }
+ }
+ @media screen and (max-width: 325px) {
+   .place__image {
+     max-width: 320px;
+     height: 320px;
+     margin-bottom: 32px;
+   }
+ }

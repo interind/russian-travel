@@ -1,17 +1,27 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .place__title {
-max-width: 460px;
-min-height: 76px;
-max-height: 152px;
-font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 1.05;
-color: #fff;
-grid-row: 1;
-grid-column: 1;
-margin: 0;
-align-self: end;
+  max-width: 460px;
+  min-height: 76px;
+  max-height: 152px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+  color: #fff;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  margin: 0;
+  -ms-grid-row-align: end;
+      align-self: end;
 }
 
 @media screen and (max-width: 1024px) {
@@ -34,6 +44,8 @@ align-self: end;
     max-width: 288px;
     font-size: 32px;
     min-height: 35px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    align-self: stretch;
   }
 }

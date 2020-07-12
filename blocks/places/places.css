@@ -23,7 +23,8 @@
   .places {
     max-width: 320px;
     width: 320px;
-    max-height: 4775px;
+    max-height: 5000px;
+    min-height: 4800px;
     margin: 0;
   }
 }
