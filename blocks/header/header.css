@@ -1,43 +1,31 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @import url(./__logo/header__logo.css);
+@import url(./__nav/header__nav.css);
+@import url(./__nav-item/header__nav-item.css);
 @import url(./__link/header__link.css);
+@import url(./__link/_active/header__link_active.css);
 
 .header {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  max-width: 1184px;
+  -webkit-box-align: space-between;
+  justify-content: space-between;
+  max-width: 1332px;
   width: 92.5%;
-  max-height: 52px;
-  margin: 0 auto 56px;
+  min-height: 52px;
   background-color: #2A2C2F;
+  margin: 0 auto 7.18%;/*92px от 1280px*/
+  outline: 1px solid white;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1064px) {
   .header {
-    width: 90.62%;
     margin-bottom: 48px;
+    width: 90.62%;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .header {
-    width: 93.75%;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .header {
-    max-width: 288px;
-    max-height: 42px;
+    min-height: 42px;
+    width: 288px;
   }
 }

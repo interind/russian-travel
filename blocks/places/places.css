@@ -1,4 +1,8 @@
 .places {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   max-width: 984px;
   width: 984px;
   min-height: 3392px;
@@ -21,10 +25,9 @@
 }
 @media screen and (max-width: 320px) {
   .places {
+    display: block;
     max-width: 320px;
     width: 320px;
-    max-height: 5000px;
-    min-height: 4800px;
-    margin: 0;
+    margin-bottom: 64px;
   }
 }

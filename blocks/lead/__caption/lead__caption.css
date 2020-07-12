@@ -9,6 +9,8 @@
   line-height: 1.4;
   letter-spacing: 2.4px;
   text-transform: uppercase;
-  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
   color: #fff;
+  align-self: flex-start;
 }

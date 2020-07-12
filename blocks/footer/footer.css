@@ -1,23 +1,13 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @import url(./__menu/footer__menu.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: start;
-      -ms-flex-align: start;
           align-items: flex-start;
   max-width: 1184px;
   width: 92.5%;
