@@ -8,47 +8,47 @@
   display: block;
   max-width: 690px;
   min-height: 428px;
-  margin:0 auto 92px 148px;
+  margin:0 auto 92px 128px;
   text-align: left;
 }
 @media screen and (max-width: 1200px) {
   .intro { 
-    margin-left: 138px;
+    margin-left: 88px;
     margin-right: auto;
   }  
 }
 
 @media screen and (max-width: 1170px) {
   .intro { 
-    margin-left: 135px;
+    margin-left: 73px;
     margin-right: auto;
   }  
 }
 
 @media screen and (max-width: 1140px) {
   .intro { 
-    margin-left: 131px;
+    margin-left: 68px;
     margin-right: auto;
   }  
 }
 
 @media screen and (max-width: 1110px) {
   .intro { 
-    margin-left: 128px;
+    margin-left: 60px;
     margin-right: auto;
   }  
 }
 
 @media screen and (max-width: 1080px) {
   .intro { 
-    margin-left: 125px;
+    margin-left: 55px;
     margin-right: auto;
   }  
 }
 
 @media screen and (max-width: 1050px) {
   .intro { 
-    margin-left: 122px;
+    margin-left: 50px;
     margin-right: auto;
   }  
 }
