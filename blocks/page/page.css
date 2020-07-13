@@ -3,7 +3,7 @@
   min-width: 320px;
   width: 100vw;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter','Ubuntu' sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
