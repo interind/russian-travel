@@ -9,31 +9,33 @@
   justify-content: flex-start;
   align-items: center;
   height: 125.62%;
-  max-width: 1107px;
+  max-width: 984px;
   min-width: 768px;
   width: 76.87%;
   margin: 0 auto 92px;
-  outline: 1px solid white;
 }
 
 @media screen and (max-width: 768px) {
   .lead {
     height: 107.75%;
-    margin: 0 auto 88px;
+    margin-bottom: 88px;
     min-width: 320px;
-    width: 98%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 760px) {
   .lead {
-    margin: 0 2px 64px;
+    width: 90%;
+    margin: 0 auto 64px;
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 325px) {
   .lead {
     max-height: 406px;
-    margin: 0 2px 64px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 64px;
     min-width: 316px;
   }
 }

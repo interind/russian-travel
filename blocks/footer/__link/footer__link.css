@@ -1,10 +1,11 @@
 .footer__link {
   text-decoration: none;
   color: #fff;
+  opacity: 1;
 }
 
 .footer__link:hover {
-  color: #DADADA;
+  opacity: .8;
 }
 
 .footer__link:last-of-type {

@@ -9,12 +9,11 @@
   display: flex;
   -webkit-box-align: space-between;
   justify-content: space-between;
-  max-width: 1332px;
+  max-width: 1184px;
   width: 92.5%;
   min-height: 52px;
   background-color: #2A2C2F;
   margin: 0 auto 7.18%;/*92px от 1280px*/
-  outline: 1px solid white;
 }
 
 @media screen and (max-width: 1064px) {

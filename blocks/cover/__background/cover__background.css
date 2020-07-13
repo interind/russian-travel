@@ -1,9 +1,11 @@
 .cover__background {
+  position: relative;
   height: 100%;
-  background-color: #2A2C2F;
-  opacity: 0.3;
+  width: 100%;
+  background-color: rgba(42, 44,47, .3);
+  color: #fff;
 }
 
 .cover__background:hover {
-  opacity: 0.8;
+  background-color: rgba(42, 44,47, .8);
 }

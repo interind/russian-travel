@@ -12,11 +12,12 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 570px) {
   .cover__title {
-    max-width: 288px;
-    min-height: 70px;
+    min-width: 288px;
+    width: 38.75vw;
     font-size: 32px;
+    min-height: 70px;
     margin-bottom: 16px;
   }
 }

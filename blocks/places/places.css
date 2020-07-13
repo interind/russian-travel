@@ -7,31 +7,33 @@
   width: 984px;
   min-height: 3392px;
   margin: 0 auto 92px;
-  outline: 1px solid white;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
-    width: 928px;
+    min-width: 720px;
+    width: 90.62%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .places {
-    min-width: 720px;
     width: 93.75%;
     min-height: 2802px;
-    margin: 0 auto 88px;
+    margin: 0 24px 88px;
+    justify-items: flex-start;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 745px) {
   .places {
     min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 325px) {
   .places {
     display: block;
     width: 100%;

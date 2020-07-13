@@ -9,12 +9,18 @@
   margin-top: 0;
   text-align: center;
   color: #fff;
+  opacity: 1;
+}
+
+@media screen and (max-width: 570px) {
+  .cover__subtitle {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    max-width: 288px;
+    min-width: 288px;
     min-height: 48px;
-    font-size: 14px;
   }
 }

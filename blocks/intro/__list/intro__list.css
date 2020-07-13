@@ -17,13 +17,20 @@
 
 @media screen and (max-width: 768px) {
   .intro__list {
-    max-width: 720px;
-    width: 720px;
+    min-width: 720px;
+    width: 100%;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 730px) {
   .intro__list {
-    max-width: 288px;
-    width: 288px;
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .intro__list {
+    min-width: 288px;
+    width: 90%;
   }
 }

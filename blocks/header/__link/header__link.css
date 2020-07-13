@@ -4,8 +4,9 @@
   color: #fff;
   min-width: 22px;
   min-height: 24px;
+  opacity: 1;
 }
 
 .header__link:hover {
-  color: #DADADA;
+  opacity: .8;
 }
