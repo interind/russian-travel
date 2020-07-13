@@ -11,6 +11,47 @@
   margin:0 auto 92px 148px;
   text-align: left;
 }
+@media screen and (max-width: 1200px) {
+  .intro { 
+    margin-left: 138px;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 1170px) {
+  .intro { 
+    margin-left: 135px;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 1140px) {
+  .intro { 
+    margin-left: 131px;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 1110px) {
+  .intro { 
+    margin-left: 128px;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 1080px) {
+  .intro { 
+    margin-left: 125px;
+    margin-right: auto;
+  }  
+}
+
+@media screen and (max-width: 1050px) {
+  .intro { 
+    margin-left: 122px;
+    margin-right: auto;
+  }  
+}
 
 @media screen and (max-width: 1024px) {
   .intro { 

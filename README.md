@@ -1,4 +1,4 @@
-Проект 3: Путешествие по России. ссылка: https://interind.github.io/russian-travel/ или https://interind.github.io/russian-travel/index.html
+Проект 3: Путешествие по России. ссылка: https://interind.github.io/russian-travel/
 Ошибки исправил, максимально возможно.
 
 В проектной работе больше вопросов чем ответов, оказалась очень трудной.

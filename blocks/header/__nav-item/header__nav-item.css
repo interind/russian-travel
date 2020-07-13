@@ -15,7 +15,7 @@
   margin-left: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .header__nav-item {
     font-size: 14px;
     min-width: 22px;
