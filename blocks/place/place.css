@@ -15,7 +15,7 @@
   width: 100%;
   min-height: 584px;
   max-height: 660px;
-  width: 984px;
+  min-width: 720px;
   margin-bottom:  80px;
 }
 
@@ -36,17 +36,19 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 352px;
-    max-width: 720px;
     min-height: 434px;
     grid-column-gap: 28px;
   }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 720px) {
   .place {
-    display: block;        
-    max-width: 320px;
-    max-height: 963px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    width: 90%;
     grid-gap: 0;
+    max-height: 963px;
     margin: 0 auto 48px;
-  }
+  }  
 }

@@ -7,6 +7,7 @@
   width: 984px;
   min-height: 3392px;
   margin: 0 auto 92px;
+  outline: 1px solid white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,17 +18,23 @@
 }
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
-    width: 720px;
+    min-width: 720px;
+    width: 93.75%;
     min-height: 2802px;
     margin: 0 auto 88px;
   }
 }
+
+@media screen and (max-width: 720px) {
+  .places {
+    min-width: 320px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     display: block;
-    max-width: 320px;
-    width: 320px;
+    width: 100%;
     margin-bottom: 64px;
   }
 }

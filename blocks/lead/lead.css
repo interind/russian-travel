@@ -13,6 +13,7 @@
   min-width: 768px;
   width: 76.87%;
   margin: 0 auto 92px;
+  outline: 1px solid white;
 }
 
 @media screen and (max-width: 768px) {
@@ -25,7 +26,7 @@
 }
 @media screen and (max-width: 760px) {
   .lead {
-    margin: 0;
+    margin: 0 2px 64px;
   }
 }
 

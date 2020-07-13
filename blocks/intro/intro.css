@@ -9,6 +9,7 @@
   height: 428px;
   margin:0 auto 92px 148px;
   text-align: left;
+  outline: 1px solid white;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,7 +29,6 @@
   .intro { 
     max-width: 288px; 
     height: 752px;
-    margin: 0 auto;
-    padding-bottom: 64px;
+    margin: 0 auto 64px;
   }
 }
