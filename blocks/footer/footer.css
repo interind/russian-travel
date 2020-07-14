@@ -13,14 +13,13 @@
           align-items: center;
   max-width: 1184px;
   width: 92.5%;
-  min-height: 18px;
+  padding-bottom: 24px;
   margin: 0 auto;
   background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1064px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    flex-wrap: wrap;
     width: 90.62%;
   }
 }
@@ -28,7 +27,6 @@
 @media screen and (max-width: 768px) {
   .footer {
     width: 93.75%;
-    min-width: 288px;
   }
 }
 
@@ -36,9 +34,8 @@
   .footer {
   flex-direction: column;
   align-items: flex-start;
-  min-width: 186px;
-  width: 186px;
-  min-height: 310px;
+  justify-content: flex-start;
+  max-width: 186px;
   margin-right: 118px;
   margin-left: 16px;
   }

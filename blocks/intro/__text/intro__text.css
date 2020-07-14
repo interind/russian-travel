@@ -2,7 +2,6 @@
   margin-bottom: 32px;
   margin-top: 0;
   max-width: 690px;
-  min-height: 208px;
   font-family: 'Inter', 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -20,7 +19,6 @@
 @media screen and (max-width: 330px) {
   .intro__text {
     min-width: 288px;
-    min-height: 520px;
     margin-right: 0;
     width: 90%;
   }

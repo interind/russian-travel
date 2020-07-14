@@ -1,0 +1,9 @@
+.intro__info_text_height {
+ display: inline;
+ font-family: 'Inter', 'Ubuntu', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 12px;
+ line-height: 1.5;
+ margin: 0;
+}

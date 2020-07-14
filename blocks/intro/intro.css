@@ -2,15 +2,16 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__info/intro__info.css);
-@import url(./__info/_number_size/intro__info_number_size.css);
+@import url(./__info/_text/intro__info_text_height.css);
+@import url(./__info/_text/intro__info_text_size.css);
 
 .intro {
   display: block;
-  max-width: 690px;
-  min-height: 428px;
-  margin:0 auto 92px 128px;
   text-align: left;
+  margin: 0 auto 92px 11.56vw;
+  max-width: 690px;
 }
+
 @media screen and (max-width: 1200px) {
   .intro { 
     margin-left: 88px;
@@ -94,7 +95,6 @@
   .intro { 
     box-sizing: border-box;
     min-width: 288px; 
-    max-height: 752px;
     margin: 0 16px 64px;
     width: 90%;
   }

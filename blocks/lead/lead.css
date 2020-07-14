@@ -8,10 +8,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 125.62%;
-  min-height: 962px;
   max-width: 984px;
-  min-width: 1024px;
   width: 76.87%;
   margin: 0 auto 92px;
 }
@@ -19,21 +16,24 @@
 @media screen and (max-width: 1100px) {
   .lead {
     width: 100%;
-    min-height: 879px;
-    min-width: 900px;
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: 90.5%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .lead {
-    min-height: 550px;
     min-width: 768px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    min-height: 500px;
     margin-bottom: 88px;
     min-width: 320px;
     width: 100%;
@@ -55,10 +55,9 @@
 
 @media screen and (max-width: 325px) {
   .lead {
-    min-height: 406px;
     margin-left: 2px;
     margin-right: 2px;
     margin-bottom: 64px;
-    min-width: 316px;
+    max-width: 316px;
   }
 }

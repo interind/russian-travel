@@ -1,8 +1,5 @@
 .place__title {
-  width: 460px;
-  min-width: 440px;
-  min-height: 76px;
-  max-height: 152px;
+  max-width: 460px;
   font-family: 'Inter', 'Ubuntu', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -17,27 +14,22 @@
 
 @media screen and (max-width: 1024px) {
  .place__title {
-   width: 440px;
-   min-width: 340px;
+   max-width: 440px;
  }
 }
 
 @media screen and (max-width: 800px) {
   .place__title {
-    width: 340px;
-    min-width: 320px;
+    max-width: 340px;
     font-size: 42px;
-    min-height: 46px;
-    max-height: 92px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .place__title {
-    min-width: 288px;
+    max-width: 288px;
     width: 90%;
     font-size: 32px;
-    min-height: 35px;
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;

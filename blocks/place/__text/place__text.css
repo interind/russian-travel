@@ -5,14 +5,14 @@
   grid-column: 2;
   margin: 0;
   max-width: 483px;
-  max-height: 460px;
+  /*max-height: 460px;*/
   justify-self: left;
 }
 
 @media screen and (max-width: 1024px) {
   .place__text {
     max-width: 456px;
-    min-height: 440px;
+    /*min-height: 440px;*/
   }
 }
 @media screen and (max-width: 768px) {
@@ -27,7 +27,7 @@
     text-align: justify;
     vertical-align: middle;
     align-self: center;
-    min-height: max-content;
+    /*min-height: max-content;*/
     margin: 0 auto;
   }
 }
