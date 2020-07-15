@@ -18,7 +18,7 @@
     max-width: 352px;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 745px) {
   .place__webside {
     display: none;
     position: absolute;

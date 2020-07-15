@@ -7,42 +7,46 @@
 .intro {
   display: block;
   text-align: left;
-  margin: 0 auto 92px 11.56vw;
+  margin: 0 auto 92px 148px;
   max-width: 690px;
   width: 100%;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    margin: 0 34.53vw 92px 11.56vw;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .intro { 
-    margin-left: 88px;
+    margin-left: 108px;
     margin-right: auto;
   }  
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1180px) {
   .intro { 
-    margin-left: 73px;
+    margin-left: 98px;
+  }  
+}
+
+@media screen and (max-width: 1150px) {
+  .intro { 
+    margin-left: 83px;
+  }  
+}
+
+@media screen and (max-width: 1124px) {
+  .intro { 
+    margin-left: 70px;
     margin-right: auto;
   }  
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1090px) {
   .intro { 
-    margin-left: 68px;
-    margin-right: auto;
-  }  
-}
-
-@media screen and (max-width: 1110px) {
-  .intro { 
-    margin-left: 60px;
-    margin-right: auto;
-  }  
-}
-
-@media screen and (max-width: 1080px) {
-  .intro { 
-    margin-left: 55px;
+    margin-left: 53px;
     margin-right: auto;
   }  
 }

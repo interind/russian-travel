@@ -9,6 +9,19 @@
   text-align: center;
   color: #fff;
   opacity: 1;
+  margin-bottom: 19.14vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 19.04vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: 14.97vw;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -20,5 +33,6 @@
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;
+    margin-bottom: 33px;
   }
 }

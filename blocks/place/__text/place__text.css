@@ -16,6 +16,13 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 745px) {
+  .place__text {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__text {
     max-width: 288px;
