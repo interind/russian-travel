@@ -4,39 +4,36 @@
   justify-content: flex-start;
   align-items: center;
   max-width: 984px;
-  width: 984px;
-  min-height: 3392px;
+  width: 100%;
   margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    min-width: 720px;
-    width: 90.62%;
+    max-width: 90.62vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    width: 93.75%;
-    min-height: 2802px;
+    max-width: 93.75vw;
     margin: 0 24px 88px;
-    justify-items: flex-start;
   }
 }
 
-@media screen and (max-width: 745px) {
+@media screen and (max-width: 700px) {
   .places {
-    min-width: 320px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 88px;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 340px) {
   .places {
-    display: block;
-    width: 100%;
-    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100vw;
+    margin: 0 auto 64px;
   }
 }

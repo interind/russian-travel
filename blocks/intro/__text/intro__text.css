@@ -12,14 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    min-width: 300px;
     width: 100%;
   }
 }
 @media screen and (max-width: 330px) {
   .intro__text {
-    min-width: 288px;
+    max-width: 288px;
     margin-right: 0;
-    width: 90%;
   }
 }

@@ -2,7 +2,6 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__info/intro__info.css);
-@import url(./__info/_text/intro__info_text_height.css);
 @import url(./__info/_text/intro__info_text_size.css);
 
 .intro {
@@ -10,6 +9,7 @@
   text-align: left;
   margin: 0 auto 92px 11.56vw;
   max-width: 690px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -81,21 +81,13 @@
 
 @media screen and (max-width: 768px) {
   .intro { 
-    min-width: 720px;
-  }
-}
-@media screen and (max-width: 730px) {
-  .intro { 
-    min-width: 288px;
-    width: 100%;
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 320px) {
   .intro { 
-    box-sizing: border-box;
-    min-width: 288px; 
+    max-width: 288px; 
     margin: 0 16px 64px;
-    width: 90%;
   }
 }

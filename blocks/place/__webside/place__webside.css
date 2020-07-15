@@ -8,7 +8,6 @@
           justify-content: flex-end;
           align-items: flex-start;
   align-self: end;
-  /*min-height: 46px;*/
   max-width: 456px;
   grid-row: 1;
   grid-column: 2;
@@ -16,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .place__webside {
-    width: 352px;
+    max-width: 352px;
   }
 }
 @media screen and (max-width: 720px) {
