@@ -9,7 +9,12 @@
   text-align: center;
   color: #fff;
   opacity: 1;
-  margin-bottom: 19.14vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__subtitle {
+    margin-bottom: 19.14vw;
+  }
 }
 
 @media screen and (max-width: 1024px) {

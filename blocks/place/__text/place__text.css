@@ -8,24 +8,24 @@
 
 @media screen and (max-width: 1024px) {
   .place__text {
-    max-width: 456px;
+    max-width: 43.76vw;
   }
 }
 @media screen and (max-width: 768px) {
   .place__text {
-    max-width: 352px;
+    max-width: 45.83vw;
   }
 }
 
 @media screen and (max-width: 745px) {
   .place__text {
+    max-width: 288px;
     margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__text {
-    max-width: 288px;
     margin: 0 auto;
   }
 }

@@ -5,11 +5,18 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
           align-items: center;
   height: 100%;
   width: 100%;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover__overlay {
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+  }
 }
