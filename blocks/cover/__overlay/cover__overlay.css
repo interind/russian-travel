@@ -12,12 +12,7 @@
   height: 100%;
   width: 100%;
   text-decoration: none;
-  background-color: rgba(42, 44,47, .3);
   color: #fff;
-}
-
-.cover__overlay:hover {
-  background-color: rgba(42, 44,47, .8);
 }
 
 @media screen and (max-width: 1280px) {
