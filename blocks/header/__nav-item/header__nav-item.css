@@ -1,5 +1,5 @@
 .header__nav-item {
-  font-family: 'Inter', 'Ubuntu', sans-serif;
+  font-family: 'Inter', 'Ubuntu', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -20,5 +20,5 @@
     font-size: 14px;
     max-width: 22px;
     min-height: 24px;
-  }  
+  }
 }
