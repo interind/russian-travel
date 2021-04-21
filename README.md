@@ -4,8 +4,8 @@
 Страница журнала путешествия по стране.
 
 **Stack:**
-1.HTML,
-2.CSS.
+HTML,
+CSS.
 
 **Start project:**
 Запуск через liveServer.
