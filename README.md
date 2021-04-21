@@ -1,9 +1,14 @@
-Проект на доработке: Путешествие по России. ссылка: https://interind.github.io/russian-travel/
+# Проект Mesto
+ссылка https://interind.github.io/mesto/index.html
+
+**Описание:**
+Страница журнала путешествия по стране.
 
 **Stack:**
 1.HTML
 2.CSS
+3.JavaScript
 
 **Start project:**
 
-стартануть проект можно через liveServer
+npm run build  осуществит сборку статики проекта.
